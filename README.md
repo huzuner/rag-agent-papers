@@ -5,6 +5,9 @@ small LangGraph agent that retries with a broadened query when retrieval
 confidence is low, and flags the final answer as low-confidence instead of
 guessing.
 
+
+<img src="screenshot_app.png" width="800"/>
+
 **Stack:** LangChain · LangGraph · Ollama (local LLM + embeddings) ·
 ChromaDB · Streamlit · Docker
 
