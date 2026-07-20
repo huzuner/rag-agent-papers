@@ -1,0 +1,19 @@
+Datavzrd: Interactive Visualization of Tabular Data
+
+Datavzrd is an open-source tool for turning large tabular datasets into interactive,
+self-contained HTML reports that can be shared and explored without specialized software.
+It is designed for research and bioinformatics workflows where results need to reach both
+technical and non-technical stakeholders.
+
+A key design goal is reproducibility: report configurations are written in a declarative
+format so that the exact same visualization can be regenerated from the same input data,
+fitting naturally into workflow managers such as Snakemake. This makes Datavzrd suitable
+for embedding directly into automated, end-to-end data pipelines running on HPC clusters
+or in the cloud.
+
+Contributions to the project included extensive testing across diverse dataset shapes and
+edge cases, as well as bug reporting that improved the robustness of the report-generation
+pipeline ahead of its associated publication.
+
+[PLACEHOLDER — replace this file with the actual text/abstract from the Datavzrd PLoS One
+publication for the real version of this project.]

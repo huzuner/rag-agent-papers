@@ -1,0 +1,22 @@
+Orthanq: Uncertainty-Aware Haplotype Quantification
+
+Orthanq is a Bayesian inference framework, implemented in Rust, designed for haplotype
+quantification from high-throughput sequencing data. Unlike point-estimate approaches,
+Orthanq explicitly models uncertainty arising from noisy, incomplete, or ambiguous
+measurements, producing calibrated probability distributions over candidate haplotypes
+rather than single best guesses.
+
+The core inference engine combines probabilistic modeling with Linear Programming (LP)
+and Mixed-Integer Linear Programming (MILP) formulations to search the space of feasible
+haplotype combinations efficiently. Several algorithmic strategies were explored to keep
+runtime tractable on large, high-dimensional datasets, including recursive enumeration
+algorithms and graph-based data structures that prune infeasible branches early.
+
+A key application area is HLA typing, where accurate haplotype quantification directly
+supports downstream clinical and research decision-making. Because HLA regions are highly
+polymorphic and sequencing coverage is often uneven, uncertainty-aware quantification is
+critical: overconfident point estimates can silently propagate errors into downstream
+analyses, while Orthanq's probabilistic output makes the confidence level explicit.
+
+[PLACEHOLDER — replace this file with the actual text/abstract from your BMC Bioinformatics
+publications on Orthanq for the real version of this project.]
