@@ -22,7 +22,7 @@ retrieve → assess confidence → confident? ──yes──▶ answer
                             answer (with low-confidence caveat)
 ```
 
-## What's in this folder
+## What's in the repo
 
 - `data/sample_docs/` — placeholder text files (Orthanq, Datavzrd summaries).
   **Replace these with the real abstracts/text from your own publications**
